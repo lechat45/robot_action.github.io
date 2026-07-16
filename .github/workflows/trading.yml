@@ -2,23 +2,24 @@ name: Bot de trading parallèle (paper)
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # toutes les 30 min (GitHub peut décaler un peu)
-  workflow_dispatch: {}       # bouton "Run workflow" pour lancer à la main
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
 
-# SÉCURITÉ : le token GitHub du workflow ne peut QUE lire le code (aucune écriture)
+# SÉCURITÉ : token en lecture seule
 permissions:
   contents: read
 
-# SÉCURITÉ : jamais deux exécutions en même temps -> pas d'ordres en double
+# SÉCURITÉ : jamais deux exécutions en même temps
 concurrency:
   group: bot-trading
   cancel-in-progress: false
 
+# ADAPTATION : tout le projet vit dans le sous-dossier bot-trading-v2/
+defaults:
+  run:
+    working-directory: bot-trading-v2
+
 jobs:
-  # ------------------------------------------------------------------
-  # JOB 1 : détecte automatiquement les fichiers univers/*.txt
-  # -> ajouter un fichier = un nouveau worker, ZÉRO modif du workflow
-  # ------------------------------------------------------------------
   preparer:
     runs-on: ubuntu-latest
     outputs:
@@ -32,10 +33,6 @@ jobs:
           echo "Workers détectés : $FICHIERS"
           echo "fichiers=$FICHIERS" >> "$GITHUB_OUTPUT"
 
-  # ------------------------------------------------------------------
-  # JOB 2 : un worker d'analyse PAR fichier, tous en PARALLÈLE
-  # (lecture seule — aucun ordre passé ici)
-  # ------------------------------------------------------------------
   analyse:
     needs: preparer
     runs-on: ubuntu-latest
@@ -50,8 +47,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      # SÉCURITÉ : le nom de fichier passe par une variable d'environnement,
-      # jamais interpolé directement dans le shell (anti-injection de commande)
       - name: Analyser cet univers (console ci-dessous)
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
@@ -67,12 +62,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: resultats-${{ steps.nom.outputs.nom }}
-          path: resultats/
+          path: bot-trading-v2/resultats/
           retention-days: 1
 
-  # ------------------------------------------------------------------
-  # JOB 3 : le chef d'orchestre — le SEUL qui passe des ordres
-  # ------------------------------------------------------------------
   trading:
     needs: analyse
     runs-on: ubuntu-latest
@@ -87,7 +79,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           pattern: resultats-*
-          path: resultats/
+          path: bot-trading-v2/resultats/
           merge-multiple: true
       - name: Agréger et trader (console ci-dessous)
         env:
