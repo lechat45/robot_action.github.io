@@ -1,0 +1,4 @@
+# Versions épinglées (sécurité supply chain : pas de mise à jour surprise)
+alpaca-py==0.43.5
+pandas==3.0.2
+numpy==2.4.4
