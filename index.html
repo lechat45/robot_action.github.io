@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bot de trading — Suivi</title>
+<style>
+  :root { --verre: rgba(255,255,255,.06); --bord: rgba(255,255,255,.12); --txt: #e8eaf0; --txt2: #9aa0b0; --ok: #34d399; --ko: #f87171; --accent: #7dd3fc; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; color: var(--txt); min-height: 100vh; padding: 24px;
+         background: radial-gradient(1200px 700px at 15% -10%, #1e3a5f 0%, transparent 55%),
+                     radial-gradient(1000px 600px at 110% 20%, #3b1e5f 0%, transparent 50%), #0b0e17; }
+  .conteneur { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
+  .sous-titre { color: var(--txt2); font-size: .9rem; margin-bottom: 24px; }
+  .carte { background: var(--verre); border: 1px solid var(--bord); border-radius: 18px; padding: 18px 20px;
+           backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); margin-bottom: 16px; }
+  .grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 16px; }
+  .stat .etiquette { color: var(--txt2); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; }
+  .stat .valeur { font-size: 1.6rem; font-weight: 700; margin-top: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th { text-align: left; color: var(--txt2); font-weight: 500; font-size: .78rem; text-transform: uppercase;
+       letter-spacing: .05em; padding: 8px 6px; border-bottom: 1px solid var(--bord); }
+  td { padding: 10px 6px; border-bottom: 1px solid rgba(255,255,255,.05); }
+  .positif { color: var(--ok); } .negatif { color: var(--ko); }
+  .puce { display: inline-block; background: rgba(125,211,252,.12); border: 1px solid rgba(125,211,252,.3);
+          color: var(--accent); border-radius: 999px; padding: 3px 12px; margin: 3px 4px 3px 0; font-size: .85rem; }
+  .point { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
+  .run { display: flex; align-items: center; padding: 7px 0; font-size: .9rem; border-bottom: 1px solid rgba(255,255,255,.05); }
+  .run:last-child { border-bottom: none; }
+  .run time { margin-left: auto; color: var(--txt2); font-size: .8rem; }
+  a { color: var(--accent); }
+  .discret { color: var(--txt2); font-size: .85rem; }
+  h2 { font-size: .95rem; margin-bottom: 10px; color: var(--txt2); font-weight: 600; }
+  #erreur { color: var(--ko); }
+</style>
+</head>
+<body>
+<div class="conteneur">
+  <h1>🤖 Bot de trading — Paper Alpaca</h1>
+  <p class="sous-titre">Argent 100% virtuel · <span id="maj">chargement…</span></p>
+
+  <div class="grille">
+    <div class="carte stat"><div class="etiquette">Equity</div><div class="valeur" id="equity">—</div></div>
+    <div class="carte stat"><div class="etiquette">Cash</div><div class="valeur" id="cash">—</div></div>
+    <div class="carte stat"><div class="etiquette">Perf. du jour</div><div class="valeur" id="perf">—</div></div>
+  </div>
+
+  <div class="carte">
+    <h2>Positions ouvertes</h2>
+    <div id="positions" class="discret">Chargement…</div>
+  </div>
+
+  <div class="carte">
+    <h2>Portefeuille cible du dernier cycle</h2>
+    <div id="cibles" class="discret">Chargement…</div>
+  </div>
+
+  <div class="carte">
+    <h2>Derniers runs GitHub Actions</h2>
+    <div id="runs" class="discret">Chargement…</div>
+  </div>
+
+  <p class="discret" id="erreur"></p>
+  <p class="discret">Détails complets : <a href="https://app.alpaca.markets/paper/dashboard/overview" target="_blank">dashboard Alpaca</a> ·
+     <a id="lien-actions" href="#" target="_blank">logs GitHub Actions</a></p>
+</div>
+
+<script>
+// ====== CONFIGURATION (adapte si tu renommes le repo) ======
+const PROPRIO = "lechat45";
+const REPO = "robot_action.github.io";
+const BRANCHE = "main";
+const CHEMIN_STATUS = "bot-trading-v2/docs/status.json";
+// ===========================================================
+
+document.getElementById("lien-actions").href = `https://github.com/${PROPRIO}/${REPO}/actions`;
+
+const usd = (n) => "$" + Number(n).toLocaleString("fr-FR", { maximumFractionDigits: 0 });
+const pct = (n) => (n >= 0 ? "+" : "") + Number(n).toFixed(2) + "%";
+
+async function chargerStatut() {
+  const url = `https://raw.githubusercontent.com/${PROPRIO}/${REPO}/${BRANCHE}/${CHEMIN_STATUS}?t=${Date.now()}`;
+  try {
+    const rep = await fetch(url);
+    if (!rep.ok) throw new Error("status.json introuvable (le bot n'a peut-être pas encore fini un cycle)");
+    const s = await rep.json();
+    document.getElementById("maj").textContent = "Dernière mise à jour : " + new Date(s.maj).toLocaleString("fr-FR");
+    document.getElementById("equity").textContent = usd(s.equity);
+    document.getElementById("cash").textContent = usd(s.cash);
+    const perf = document.getElementById("perf");
+    perf.textContent = pct(s.perf_jour_pct);
+    perf.className = "valeur " + (s.perf_jour_pct >= 0 ? "positif" : "negatif");
+
+    const zonePos = document.getElementById("positions");
+    if (!s.positions.length) {
+      zonePos.textContent = s.kill_switch ? "🛑 Kill switch déclenché aujourd'hui — tout a été liquidé." : "Aucune position (le bot est en cash).";
+    } else {
+      zonePos.innerHTML = "<table><tr><th>Actif</th><th>Valeur</th><th>PnL</th></tr>" +
+        s.positions.map(p => `<tr><td>${p.symbole}</td><td>${usd(p.valeur)}</td>` +
+          `<td class="${p.pnl_pct >= 0 ? "positif" : "negatif"}">${pct(p.pnl_pct)}</td></tr>`).join("") + "</table>";
+    }
+
+    const zoneCibles = document.getElementById("cibles");
+    zoneCibles.innerHTML = s.cibles.length
+      ? s.cibles.map(c => `<span class="puce">${c}</span>`).join("")
+      : "Aucun actif ne passait les filtres au dernier cycle.";
+  } catch (e) {
+    document.getElementById("erreur").textContent = "⚠️ " + e.message;
+    document.getElementById("maj").textContent = "en attente du premier cycle du bot";
+  }
+}
+
+async function chargerRuns() {
+  try {
+    const rep = await fetch(`https://api.github.com/repos/${PROPRIO}/${REPO}/actions/runs?per_page=5`);
+    if (!rep.ok) throw new Error("API GitHub indisponible");
+    const data = await rep.json();
+    const zone = document.getElementById("runs");
+    if (!data.workflow_runs || !data.workflow_runs.length) { zone.textContent = "Aucun run pour l'instant."; return; }
+    zone.innerHTML = data.workflow_runs.map(r => {
+      const couleur = r.conclusion === "success" ? "var(--ok)" : (r.status === "in_progress" || r.status === "queued") ? "var(--accent)" : "var(--ko)";
+      const etat = r.conclusion || r.status;
+      return `<div class="run"><span class="point" style="background:${couleur}"></span>` +
+             `<a href="${r.html_url}" target="_blank">${etat}</a>` +
+             `<time>${new Date(r.created_at).toLocaleString("fr-FR")}</time></div>`;
+    }).join("");
+  } catch (e) {
+    document.getElementById("runs").textContent = "⚠️ " + e.message;
+  }
+}
+
+chargerStatut();
+chargerRuns();
+setInterval(() => { chargerStatut(); chargerRuns(); }, 60000); // rafraîchit toutes les 60 s
+</script>
+</body>
+</html>
