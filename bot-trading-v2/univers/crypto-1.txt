@@ -1,0 +1,9 @@
+# WORKER crypto-1 — les cryptos s'écrivent avec /USD
+BTC/USD
+ETH/USD
+SOL/USD
+LTC/USD
+AVAX/USD
+DOGE/USD
+LINK/USD
+DOT/USD

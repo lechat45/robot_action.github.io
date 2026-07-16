@@ -1,0 +1,96 @@
+name: Bot de trading parallèle (paper)
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # toutes les 30 min (GitHub peut décaler un peu)
+  workflow_dispatch: {}       # bouton "Run workflow" pour lancer à la main
+
+# SÉCURITÉ : le token GitHub du workflow ne peut QUE lire le code (aucune écriture)
+permissions:
+  contents: read
+
+# SÉCURITÉ : jamais deux exécutions en même temps -> pas d'ordres en double
+concurrency:
+  group: bot-trading
+  cancel-in-progress: false
+
+jobs:
+  # ------------------------------------------------------------------
+  # JOB 1 : détecte automatiquement les fichiers univers/*.txt
+  # -> ajouter un fichier = un nouveau worker, ZÉRO modif du workflow
+  # ------------------------------------------------------------------
+  preparer:
+    runs-on: ubuntu-latest
+    outputs:
+      matrice: ${{ steps.liste.outputs.fichiers }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lister les fichiers d'univers
+        id: liste
+        run: |
+          FICHIERS=$(ls univers/*.txt | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          echo "Workers détectés : $FICHIERS"
+          echo "fichiers=$FICHIERS" >> "$GITHUB_OUTPUT"
+
+  # ------------------------------------------------------------------
+  # JOB 2 : un worker d'analyse PAR fichier, tous en PARALLÈLE
+  # (lecture seule — aucun ordre passé ici)
+  # ------------------------------------------------------------------
+  analyse:
+    needs: preparer
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        fichier: ${{ fromJSON(needs.preparer.outputs.matrice) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      # SÉCURITÉ : le nom de fichier passe par une variable d'environnement,
+      # jamais interpolé directement dans le shell (anti-injection de commande)
+      - name: Analyser cet univers (console ci-dessous)
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          FICHIER_UNIVERS: ${{ matrix.fichier }}
+        run: python analyse.py "$FICHIER_UNIVERS"
+      - name: Nom d'artefact
+        id: nom
+        env:
+          FICHIER_UNIVERS: ${{ matrix.fichier }}
+        run: echo "nom=$(basename "$FICHIER_UNIVERS" .txt)" >> "$GITHUB_OUTPUT"
+      - name: Publier les scores pour le chef d'orchestre
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultats-${{ steps.nom.outputs.nom }}
+          path: resultats/
+          retention-days: 1
+
+  # ------------------------------------------------------------------
+  # JOB 3 : le chef d'orchestre — le SEUL qui passe des ordres
+  # ------------------------------------------------------------------
+  trading:
+    needs: analyse
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Récupérer les résultats de tous les workers
+        uses: actions/download-artifact@v4
+        with:
+          pattern: resultats-*
+          path: resultats/
+          merge-multiple: true
+      - name: Agréger et trader (console ci-dessous)
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python trader.py
