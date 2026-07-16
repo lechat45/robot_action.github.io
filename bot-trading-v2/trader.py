@@ -66,6 +66,31 @@ def appliquer_stop_loss(trading: TradingClient):
             log(f"   {pos.symbol:<10} PnL latent {pnl * 100:+.2f}% (OK)")
 
 
+
+def ecrire_statut(trading, cibles=None, kill_switch=False):
+    """Écrit docs/status.json pour la page web de suivi (aucune donnée sensible)."""
+    from datetime import datetime, timezone
+    compte = trading.get_account()
+    equity, veille = float(compte.equity), float(compte.last_equity)
+    statut = {
+        "maj": datetime.now(timezone.utc).isoformat(),
+        "kill_switch": kill_switch,
+        "equity": round(equity, 2),
+        "cash": round(float(compte.cash), 2),
+        "perf_jour_pct": round((equity / veille - 1) * 100, 2) if veille > 0 else 0,
+        "positions": [
+            {"symbole": p.symbol, "valeur": round(float(p.market_value), 2),
+             "pnl_pct": round(float(p.unrealized_plpc) * 100, 2)}
+            for p in trading.get_all_positions()
+        ],
+        "cibles": [c["symbole"] for c in (cibles or [])],
+    }
+    Path("docs").mkdir(exist_ok=True)
+    with open(Path("docs") / "status.json", "w", encoding="utf-8") as f:
+        json.dump(statut, f, ensure_ascii=False, indent=2)
+    log("📊 Statut écrit dans docs/status.json (pour la page web)")
+
+
 def main():
     separateur("CHEF D'ORCHESTRE — AGRÉGATION + TRADING (mode PAPER, argent virtuel)")
 
@@ -90,6 +115,7 @@ def main():
     # --- 2. Kill switch ---
     separateur("2/5 — RISQUE : KILL SWITCH QUOTIDIEN")
     if verifier_kill_switch(trading):
+        ecrire_statut(trading, kill_switch=True)
         return
 
     # --- 3. Stop-loss ---
@@ -164,6 +190,7 @@ def main():
         log(f"   {pos.symbol:<10} valeur ${float(pos.market_value):,.2f} | "
             f"PnL {float(pos.unrealized_plpc) * 100:+.2f}%")
     log("Suivi visuel : https://app.alpaca.markets/paper/dashboard/overview")
+    ecrire_statut(trading, cibles)
 
 
 if __name__ == "__main__":
