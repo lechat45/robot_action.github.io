@@ -1,27 +1,57 @@
 {
-  "maj": "2026-08-05T15:40:09.827821+00:00",
+  "maj": "2026-08-05T19:38:48.015712+00:00",
   "kill_switch": false,
-  "equity": 9915.46,
-  "cash": 8561.44,
-  "perf_jour_pct": -0.02,
+  "equity": 9930.84,
+  "cash": 2722.56,
+  "perf_jour_pct": 0.13,
   "positions": [
     {
+      "symbole": "AAPL",
+      "valeur": 637.02,
+      "pnl_pct": 0.37
+    },
+    {
       "symbole": "AMD",
-      "valeur": 272.21,
-      "pnl_pct": -0.01
+      "valeur": 271.17,
+      "pnl_pct": -0.39
+    },
+    {
+      "symbole": "JNJ",
+      "valeur": 991.49,
+      "pnl_pct": 0.18
+    },
+    {
+      "symbole": "JPM",
+      "valeur": 1144.68,
+      "pnl_pct": 0.11
     },
     {
       "symbole": "MA",
-      "valeur": 1081.8,
-      "pnl_pct": -0.01
+      "valeur": 1083.68,
+      "pnl_pct": 0.17
+    },
+    {
+      "symbole": "UNH",
+      "valeur": 950.45,
+      "pnl_pct": 0.53
+    },
+    {
+      "symbole": "V",
+      "valeur": 1192.28,
+      "pnl_pct": 0.2
+    },
+    {
+      "symbole": "XOM",
+      "valeur": 937.51,
+      "pnl_pct": 0.18
     }
   ],
   "cibles": [
     "JNJ",
     "V",
     "MA",
-    "UNH",
     "AAPL",
+    "UNH",
     "JPM",
     "AMD",
     "XOM"
