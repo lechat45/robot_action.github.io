@@ -1,7 +1,7 @@
 {
-  "maj": "2026-08-08T17:33:12.898149+00:00",
+  "maj": "2026-08-08T18:41:02.187980+00:00",
   "kill_switch": false,
-  "equity": 9969.88,
+  "equity": 9969.34,
   "cash": 258.35,
   "perf_jour_pct": 0.34,
   "positions": [
@@ -17,8 +17,8 @@
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 781.15,
-      "pnl_pct": 0.28
+      "valeur": 781.2,
+      "pnl_pct": 0.29
     },
     {
       "symbole": "JNJ",
@@ -32,8 +32,8 @@
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 637.05,
-      "pnl_pct": 1.59
+      "valeur": 636.47,
+      "pnl_pct": 1.5
     },
     {
       "symbole": "MA",
