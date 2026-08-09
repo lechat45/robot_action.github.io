@@ -1,9 +1,9 @@
 {
-  "maj": "2026-08-09T16:38:00.836567+00:00",
+  "maj": "2026-08-09T17:34:05.075383+00:00",
   "kill_switch": false,
-  "equity": 9986.51,
+  "equity": 9985.06,
   "cash": -1860.5,
-  "perf_jour_pct": 0.51,
+  "perf_jour_pct": 0.5,
   "positions": [
     {
       "symbole": "AAPL",
@@ -17,13 +17,13 @@
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 1125.65,
-      "pnl_pct": 0.53
+      "valeur": 1125.87,
+      "pnl_pct": 0.55
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 782.09,
-      "pnl_pct": 0.4
+      "valeur": 781.89,
+      "pnl_pct": 0.38
     },
     {
       "symbole": "JNJ",
@@ -52,8 +52,8 @@
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 862.24,
-      "pnl_pct": 4.42
+      "valeur": 860.77,
+      "pnl_pct": 4.24
     },
     {
       "symbole": "SPY",
