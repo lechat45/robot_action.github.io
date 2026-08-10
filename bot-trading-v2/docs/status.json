@@ -1,81 +1,81 @@
 {
-  "maj": "2026-08-09T23:33:56.337553+00:00",
+  "maj": "2026-08-10T01:59:04.461475+00:00",
   "kill_switch": false,
-  "equity": 9955.37,
+  "equity": 9953.92,
   "cash": -1860.5,
-  "perf_jour_pct": 0.2,
+  "perf_jour_pct": 0.18,
   "positions": [
     {
       "symbole": "AAPL",
-      "valeur": 635.42,
-      "pnl_pct": -0.37
+      "valeur": 635.01,
+      "pnl_pct": -0.43
     },
     {
       "symbole": "AMD",
-      "valeur": 282.43,
-      "pnl_pct": 0.7
+      "valeur": 282.69,
+      "pnl_pct": 0.8
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 1119.9,
-      "pnl_pct": 0.02
+      "valeur": 1124.88,
+      "pnl_pct": 0.46
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 779.67,
-      "pnl_pct": 0.09
+      "valeur": 784.56,
+      "pnl_pct": 0.72
     },
     {
       "symbole": "JNJ",
-      "valeur": 1036.28,
-      "pnl_pct": 0.87
+      "valeur": 1038.18,
+      "pnl_pct": 1.05
     },
     {
       "symbole": "JPM",
-      "valeur": 1148.19,
-      "pnl_pct": 0.52
+      "valeur": 1146.49,
+      "pnl_pct": 0.37
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 627.37,
-      "pnl_pct": 0.04
+      "valeur": 628.55,
+      "pnl_pct": 0.23
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 989.09,
-      "pnl_pct": -0.48
+      "valeur": 981.13,
+      "pnl_pct": -1.28
     },
     {
       "symbole": "MA",
-      "valeur": 1039.75,
+      "valeur": 1039.85,
       "pnl_pct": -1.08
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 854.56,
-      "pnl_pct": 3.49
+      "valeur": 852.17,
+      "pnl_pct": 3.2
     },
     {
       "symbole": "SPY",
-      "valeur": 1197.05,
-      "pnl_pct": 0.1
+      "valeur": 1197.13,
+      "pnl_pct": 0.11
     },
     {
       "symbole": "UNH",
-      "valeur": 926.07,
-      "pnl_pct": -0.52
+      "valeur": 924.32,
+      "pnl_pct": -0.71
     },
     {
       "symbole": "V",
-      "valeur": 1180.1,
-      "pnl_pct": -1.31
+      "valeur": 1179.48,
+      "pnl_pct": -1.36
     }
   ],
   "cibles": [
     "ETH/USD",
     "SOL/USD",
-    "LINK/USD",
+    "LTC/USD",
     "BTC/USD",
-    "LTC/USD"
+    "LINK/USD"
   ]
 }
