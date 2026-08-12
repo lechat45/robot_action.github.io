@@ -1,39 +1,39 @@
 {
-  "maj": "2026-08-12T10:35:37.047979+00:00",
+  "maj": "2026-08-12T11:49:12.972276+00:00",
   "kill_switch": false,
-  "equity": 9902.76,
+  "equity": 9902.97,
   "cash": -1245.54,
   "perf_jour_pct": 0.06,
   "positions": [
     {
       "symbole": "AMD",
-      "valeur": 294.65,
-      "pnl_pct": 3.52
+      "valeur": 293.53,
+      "pnl_pct": 3.13
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 1166.52,
-      "pnl_pct": 0.53
+      "valeur": 1167.82,
+      "pnl_pct": 0.65
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 777.66,
-      "pnl_pct": -0.17
+      "valeur": 777.45,
+      "pnl_pct": -0.19
     },
     {
       "symbole": "JNJ",
-      "valeur": 1020.15,
-      "pnl_pct": -1.67
+      "valeur": 1019.99,
+      "pnl_pct": -1.69
     },
     {
       "symbole": "JPM",
-      "valeur": 1191.25,
-      "pnl_pct": -0.1
+      "valeur": 1190.89,
+      "pnl_pct": -0.14
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 574.02,
-      "pnl_pct": 1.08
+      "valeur": 577.99,
+      "pnl_pct": 1.78
     },
     {
       "symbole": "LTCUSD",
@@ -42,28 +42,28 @@
     },
     {
       "symbole": "MA",
-      "valeur": 1022.27,
-      "pnl_pct": -0.95
+      "valeur": 1020.45,
+      "pnl_pct": -1.13
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 806.94,
-      "pnl_pct": 1.07
+      "valeur": 805.72,
+      "pnl_pct": 0.92
     },
     {
       "symbole": "SPY",
-      "valeur": 1191.78,
-      "pnl_pct": -0.06
+      "valeur": 1191.48,
+      "pnl_pct": -0.09
     },
     {
       "symbole": "UNH",
-      "valeur": 948.02,
-      "pnl_pct": -1.05
+      "valeur": 946.89,
+      "pnl_pct": -1.17
     },
     {
       "symbole": "V",
-      "valeur": 1188.75,
-      "pnl_pct": -0.31
+      "valeur": 1190.03,
+      "pnl_pct": -0.21
     }
   ],
   "cibles": [
