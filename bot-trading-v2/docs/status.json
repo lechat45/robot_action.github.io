@@ -1,14 +1,14 @@
 {
-  "maj": "2026-08-15T17:22:55.564384+00:00",
+  "maj": "2026-08-15T17:47:43.757685+00:00",
   "kill_switch": false,
-  "equity": 9842.9,
+  "equity": 9842.64,
   "cash": -601.39,
   "perf_jour_pct": 0.34,
   "positions": [
     {
       "symbole": "BTCUSD",
-      "valeur": 1152.73,
-      "pnl_pct": 0.26
+      "valeur": 1152.46,
+      "pnl_pct": 0.24
     },
     {
       "symbole": "ETHUSD",
