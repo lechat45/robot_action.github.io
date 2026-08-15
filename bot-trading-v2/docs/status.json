@@ -1,19 +1,19 @@
 {
-  "maj": "2026-08-15T09:51:50.330574+00:00",
+  "maj": "2026-08-15T10:25:41.687688+00:00",
   "kill_switch": false,
-  "equity": 9816.18,
+  "equity": 9814.11,
   "cash": -601.39,
-  "perf_jour_pct": 0.07,
+  "perf_jour_pct": 0.05,
   "positions": [
     {
       "symbole": "BTCUSD",
-      "valeur": 1150.35,
-      "pnl_pct": 0.05
+      "valeur": 1149.99,
+      "pnl_pct": 0.02
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 763.66,
-      "pnl_pct": -1.96
+      "valeur": 763.95,
+      "pnl_pct": -1.93
     },
     {
       "symbole": "JNJ",
@@ -47,8 +47,8 @@
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 790.48,
-      "pnl_pct": -0.99
+      "valeur": 788.48,
+      "pnl_pct": -1.24
     },
     {
       "symbole": "SPY",
