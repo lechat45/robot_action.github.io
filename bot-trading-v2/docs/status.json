@@ -1,14 +1,14 @@
 {
-  "maj": "2026-08-16T17:21:32.956801+00:00",
+  "maj": "2026-08-16T17:46:56.681966+00:00",
   "kill_switch": false,
-  "equity": 9834.86,
+  "equity": 9833.92,
   "cash": 546.54,
-  "perf_jour_pct": 0.26,
+  "perf_jour_pct": 0.25,
   "positions": [
     {
       "symbole": "ETHUSD",
-      "valeur": 767.16,
-      "pnl_pct": -1.51
+      "valeur": 766.22,
+      "pnl_pct": -1.63
     },
     {
       "symbole": "JNJ",
