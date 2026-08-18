@@ -1,14 +1,14 @@
 {
-  "maj": "2026-08-18T01:20:21.003129+00:00",
+  "maj": "2026-08-18T02:37:40.279084+00:00",
   "kill_switch": false,
-  "equity": 9784.92,
+  "equity": 9772.79,
   "cash": 1375.97,
-  "perf_jour_pct": -0.25,
+  "perf_jour_pct": -0.37,
   "positions": [
     {
       "symbole": "ETHUSD",
-      "valeur": 775.76,
-      "pnl_pct": -0.41
+      "valeur": 771.13,
+      "pnl_pct": -1.0
     },
     {
       "symbole": "JNJ",
@@ -17,7 +17,7 @@
     },
     {
       "symbole": "JPM",
-      "valeur": 1167.01,
+      "valeur": 1167.11,
       "pnl_pct": -0.9
     },
     {
@@ -32,23 +32,23 @@
     },
     {
       "symbole": "MSFT",
-      "valeur": 376.21,
-      "pnl_pct": -1.79
+      "valeur": 376.17,
+      "pnl_pct": -1.8
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 799.3,
-      "pnl_pct": 0.12
+      "valeur": 793.94,
+      "pnl_pct": -0.56
     },
     {
       "symbole": "SPY",
-      "valeur": 1173.44,
-      "pnl_pct": -0.36
+      "valeur": 1170.95,
+      "pnl_pct": -0.57
     },
     {
       "symbole": "V",
-      "valeur": 1165.92,
-      "pnl_pct": -1.0
+      "valeur": 1166.22,
+      "pnl_pct": -0.97
     }
   ],
   "cibles": [
