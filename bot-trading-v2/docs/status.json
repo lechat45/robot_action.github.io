@@ -1,14 +1,14 @@
 {
-  "maj": "2026-08-20T01:21:34.381162+00:00",
+  "maj": "2026-08-20T02:39:29.381857+00:00",
   "kill_switch": false,
-  "equity": 9948.95,
-  "cash": 1756.64,
-  "perf_jour_pct": 1.06,
+  "equity": 9941.49,
+  "cash": 1768.51,
+  "perf_jour_pct": 0.99,
   "positions": [
     {
       "symbole": "AMD",
-      "valeur": 297.59,
-      "pnl_pct": 1.16
+      "valeur": 296.91,
+      "pnl_pct": 0.92
     },
     {
       "symbole": "JNJ",
@@ -22,33 +22,33 @@
     },
     {
       "symbole": "MA",
-      "valeur": 1179.06,
-      "pnl_pct": -0.08
+      "valeur": 1177.0,
+      "pnl_pct": -0.25
     },
     {
       "symbole": "MSFT",
-      "valeur": 387.28,
-      "pnl_pct": 0.65
+      "valeur": 387.38,
+      "pnl_pct": 0.68
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 546.35,
-      "pnl_pct": -0.13
+      "valeur": 546.93,
+      "pnl_pct": -0.03
     },
     {
       "symbole": "SPY",
-      "valeur": 1184.15,
-      "pnl_pct": 0.02
+      "valeur": 1183.81,
+      "pnl_pct": -0.01
     },
     {
       "symbole": "UNH",
-      "valeur": 1132.28,
-      "pnl_pct": -0.66
+      "valeur": 1131.93,
+      "pnl_pct": -0.69
     },
     {
       "symbole": "V",
-      "valeur": 1188.02,
-      "pnl_pct": 0.34
+      "valeur": 1185.39,
+      "pnl_pct": 0.12
     }
   ],
   "cibles": [
