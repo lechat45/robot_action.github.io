@@ -1,9 +1,9 @@
 {
-  "maj": "2026-08-22T21:48:23.379933+00:00",
+  "maj": "2026-08-22T22:24:41.648147+00:00",
   "kill_switch": false,
-  "equity": 9889.27,
-  "cash": 1350.99,
-  "perf_jour_pct": -0.11,
+  "equity": 9888.53,
+  "cash": 1847.71,
+  "perf_jour_pct": -0.12,
   "positions": [
     {
       "symbole": "AMD",
@@ -24,11 +24,6 @@
       "symbole": "JPM",
       "valeur": 1170.5,
       "pnl_pct": -1.33
-    },
-    {
-      "symbole": "LTCUSD",
-      "valeur": 497.46,
-      "pnl_pct": 0.43
     },
     {
       "symbole": "MA",
@@ -57,7 +52,6 @@
     }
   ],
   "cibles": [
-    "LTC/USD",
     "AVAX/USD"
   ]
 }
