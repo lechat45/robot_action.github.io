@@ -1,9 +1,9 @@
 {
-  "maj": "2026-08-22T20:50:33.495654+00:00",
+  "maj": "2026-08-22T21:24:12.865223+00:00",
   "kill_switch": false,
-  "equity": 9885.43,
+  "equity": 9888.41,
   "cash": 1847.59,
-  "perf_jour_pct": -0.15,
+  "perf_jour_pct": -0.12,
   "positions": [
     {
       "symbole": "AMD",
@@ -12,8 +12,8 @@
     },
     {
       "symbole": "AVAXUSD",
-      "valeur": 465.34,
-      "pnl_pct": -2.68
+      "valeur": 468.32,
+      "pnl_pct": -2.05
     },
     {
       "symbole": "JNJ",
