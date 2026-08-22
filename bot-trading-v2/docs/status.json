@@ -1,9 +1,9 @@
 {
-  "maj": "2026-08-22T15:23:34.682533+00:00",
+  "maj": "2026-08-22T15:47:55.055468+00:00",
   "kill_switch": false,
-  "equity": 9872.13,
+  "equity": 9880.15,
   "cash": 1350.88,
-  "perf_jour_pct": -0.28,
+  "perf_jour_pct": -0.2,
   "positions": [
     {
       "symbole": "AMD",
@@ -27,8 +27,8 @@
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 486.59,
-      "pnl_pct": -1.96
+      "valeur": 494.61,
+      "pnl_pct": -0.34
     },
     {
       "symbole": "MA",
