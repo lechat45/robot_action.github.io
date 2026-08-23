@@ -1,8 +1,8 @@
 {
-  "maj": "2026-08-23T09:29:54.977520+00:00",
+  "maj": "2026-08-23T09:55:21.135645+00:00",
   "kill_switch": false,
-  "equity": 9883.81,
-  "cash": 990.77,
+  "equity": 9883.85,
+  "cash": 1354.31,
   "perf_jour_pct": -0.17,
   "positions": [
     {
@@ -24,11 +24,6 @@
       "symbole": "JPM",
       "valeur": 1170.5,
       "pnl_pct": -1.33
-    },
-    {
-      "symbole": "LINKUSD",
-      "valeur": 363.5,
-      "pnl_pct": 0.85
     },
     {
       "symbole": "LTCUSD",
@@ -62,7 +57,6 @@
     }
   ],
   "cibles": [
-    "LINK/USD",
     "AVAX/USD",
     "LTC/USD"
   ]
