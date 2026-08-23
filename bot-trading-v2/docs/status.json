@@ -1,9 +1,9 @@
 {
-  "maj": "2026-08-23T05:32:14.410176+00:00",
+  "maj": "2026-08-23T06:43:52.981668+00:00",
   "kill_switch": false,
-  "equity": 9860.71,
-  "cash": 654.53,
-  "perf_jour_pct": -0.4,
+  "equity": 9863.7,
+  "cash": 660.97,
+  "perf_jour_pct": -0.37,
   "positions": [
     {
       "symbole": "AMD",
@@ -12,8 +12,13 @@
     },
     {
       "symbole": "AVAXUSD",
-      "valeur": 453.76,
-      "pnl_pct": -5.1
+      "valeur": 456.04,
+      "pnl_pct": -4.62
+    },
+    {
+      "symbole": "ETHUSD",
+      "valeur": 328.42,
+      "pnl_pct": 0.37
     },
     {
       "symbole": "JNJ",
@@ -27,8 +32,8 @@
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 359.65,
-      "pnl_pct": -0.21
+      "valeur": 359.95,
+      "pnl_pct": -0.13
     },
     {
       "symbole": "LTCUSD",
