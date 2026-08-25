@@ -1,19 +1,19 @@
 {
-  "maj": "2026-08-25T20:31:43.435612+00:00",
+  "maj": "2026-08-25T21:30:52.507873+00:00",
   "kill_switch": false,
-  "equity": 9925.86,
-  "cash": 1434.44,
-  "perf_jour_pct": -0.22,
+  "equity": 9898.51,
+  "cash": 1099.1,
+  "perf_jour_pct": -0.5,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 460.85,
-      "pnl_pct": -3.62
+      "valeur": 449.62,
+      "pnl_pct": -5.96
     },
     {
       "symbole": "JNJ",
-      "valeur": 1063.73,
-      "pnl_pct": 0.1
+      "valeur": 1061.51,
+      "pnl_pct": -0.11
     },
     {
       "symbole": "JPM",
@@ -22,42 +22,43 @@
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 372.54,
-      "pnl_pct": 0.18
+      "valeur": 366.72,
+      "pnl_pct": -1.38
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 490.74,
-      "pnl_pct": 0.59
+      "valeur": 483.67,
+      "pnl_pct": -0.86
     },
     {
       "symbole": "MA",
-      "valeur": 1164.56,
-      "pnl_pct": 0.02
+      "valeur": 1163.08,
+      "pnl_pct": -0.1
     },
     {
       "symbole": "MSFT",
-      "valeur": 396.76,
-      "pnl_pct": 0.84
+      "valeur": 396.94,
+      "pnl_pct": 0.89
     },
     {
       "symbole": "SPY",
-      "valeur": 1191.69,
-      "pnl_pct": 0.11
+      "valeur": 1191.25,
+      "pnl_pct": 0.07
     },
     {
       "symbole": "V",
-      "valeur": 1194.39,
-      "pnl_pct": 0.34
+      "valeur": 1194.58,
+      "pnl_pct": 0.35
     },
     {
       "symbole": "XOM",
-      "valeur": 961.31,
-      "pnl_pct": -1.09
+      "valeur": 961.85,
+      "pnl_pct": -1.03
     }
   ],
   "cibles": [
     "LINK/USD",
+    "ETH/USD",
     "AVAX/USD",
     "LTC/USD"
   ]
