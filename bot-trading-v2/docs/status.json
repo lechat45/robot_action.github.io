@@ -1,29 +1,29 @@
 {
-  "maj": "2026-08-26T05:36:55.750095+00:00",
+  "maj": "2026-08-26T06:53:32.485271+00:00",
   "kill_switch": false,
-  "equity": 9902.85,
+  "equity": 9915.37,
   "cash": 681.94,
-  "perf_jour_pct": -0.45,
+  "perf_jour_pct": -0.33,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 453.26,
-      "pnl_pct": -5.2
+      "valeur": 456.8,
+      "pnl_pct": -4.46
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 352.33,
-      "pnl_pct": 0.05
+      "valeur": 354.47,
+      "pnl_pct": 0.66
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 397.46,
-      "pnl_pct": -0.31
+      "valeur": 401.64,
+      "pnl_pct": 0.74
     },
     {
       "symbole": "JNJ",
-      "valeur": 1067.64,
-      "pnl_pct": 0.47
+      "valeur": 1067.99,
+      "pnl_pct": 0.5
     },
     {
       "symbole": "JPM",
@@ -32,13 +32,13 @@
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 369.65,
-      "pnl_pct": -0.6
+      "valeur": 369.04,
+      "pnl_pct": -0.76
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 481.87,
-      "pnl_pct": -1.23
+      "valeur": 486.78,
+      "pnl_pct": -0.22
     },
     {
       "symbole": "MA",
@@ -47,13 +47,13 @@
     },
     {
       "symbole": "MSFT",
-      "valeur": 396.23,
-      "pnl_pct": 0.7
+      "valeur": 396.54,
+      "pnl_pct": 0.78
     },
     {
       "symbole": "SPY",
-      "valeur": 1190.45,
-      "pnl_pct": 0.01
+      "valeur": 1191.1,
+      "pnl_pct": 0.06
     },
     {
       "symbole": "V",
@@ -62,8 +62,8 @@
     },
     {
       "symbole": "XOM",
-      "valeur": 959.81,
-      "pnl_pct": -1.24
+      "valeur": 956.87,
+      "pnl_pct": -1.54
     }
   ],
   "cibles": [
