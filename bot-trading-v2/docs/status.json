@@ -1,7 +1,7 @@
 {
-  "maj": "2026-08-26T03:55:19.282480+00:00",
+  "maj": "2026-08-26T04:42:29.723897+00:00",
   "kill_switch": false,
-  "equity": 9913.89,
+  "equity": 9914.24,
   "cash": 681.94,
   "perf_jour_pct": -0.34,
   "positions": [
@@ -12,8 +12,8 @@
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 353.55,
-      "pnl_pct": 0.4
+      "valeur": 352.92,
+      "pnl_pct": 0.22
     },
     {
       "symbole": "DOTUSD",
@@ -32,13 +32,13 @@
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 371.21,
-      "pnl_pct": -0.18
+      "valeur": 372.71,
+      "pnl_pct": 0.23
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 484.07,
-      "pnl_pct": -0.78
+      "valeur": 483.36,
+      "pnl_pct": -0.92
     },
     {
       "symbole": "MA",
@@ -47,13 +47,13 @@
     },
     {
       "symbole": "MSFT",
-      "valeur": 396.09,
-      "pnl_pct": 0.67
+      "valeur": 396.42,
+      "pnl_pct": 0.75
     },
     {
       "symbole": "SPY",
-      "valeur": 1191.24,
-      "pnl_pct": 0.07
+      "valeur": 1191.1,
+      "pnl_pct": 0.06
     },
     {
       "symbole": "V",
