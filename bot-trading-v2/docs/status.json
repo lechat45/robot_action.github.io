@@ -1,64 +1,76 @@
 {
-  "maj": "2026-08-25T23:32:24.701178+00:00",
+  "maj": "2026-08-26T01:25:32.349095+00:00",
   "kill_switch": false,
-  "equity": 9912.53,
-  "cash": 1434.66,
-  "perf_jour_pct": -0.36,
+  "equity": 9890.56,
+  "cash": 681.94,
+  "perf_jour_pct": -0.58,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 454.7,
-      "pnl_pct": -4.9
+      "valeur": 451.79,
+      "pnl_pct": -5.51
     },
     {
-      "symbole": "JNJ",
-      "valeur": 1065.53,
-      "pnl_pct": 0.27
+      "symbole": "DOGEUSD",
+      "valeur": 349.23,
+      "pnl_pct": -0.83
     },
     {
-      "symbole": "JPM",
-      "valeur": 1195.47,
-      "pnl_pct": 0.43
-    },
-    {
-      "symbole": "LINKUSD",
-      "valeur": 369.65,
-      "pnl_pct": -0.6
-    },
-    {
-      "symbole": "LTCUSD",
-      "valeur": 485.27,
-      "pnl_pct": -0.53
-    },
-    {
-      "symbole": "MA",
-      "valeur": 1165.73,
+      "symbole": "DOTUSD",
+      "valeur": 399.19,
       "pnl_pct": 0.12
     },
     {
+      "symbole": "JNJ",
+      "valeur": 1067.64,
+      "pnl_pct": 0.47
+    },
+    {
+      "symbole": "JPM",
+      "valeur": 1194.13,
+      "pnl_pct": 0.32
+    },
+    {
+      "symbole": "LINKUSD",
+      "valeur": 366.88,
+      "pnl_pct": -1.34
+    },
+    {
+      "symbole": "LTCUSD",
+      "valeur": 480.63,
+      "pnl_pct": -1.49
+    },
+    {
+      "symbole": "MA",
+      "valeur": 1162.09,
+      "pnl_pct": -0.19
+    },
+    {
       "symbole": "MSFT",
-      "valeur": 396.19,
-      "pnl_pct": 0.69
+      "valeur": 394.52,
+      "pnl_pct": 0.27
     },
     {
       "symbole": "SPY",
-      "valeur": 1190.45,
-      "pnl_pct": 0.01
+      "valeur": 1188.53,
+      "pnl_pct": -0.15
     },
     {
       "symbole": "V",
-      "valeur": 1194.35,
-      "pnl_pct": 0.33
+      "valeur": 1195.98,
+      "pnl_pct": 0.47
     },
     {
       "symbole": "XOM",
-      "valeur": 960.53,
-      "pnl_pct": -1.17
+      "valeur": 958.01,
+      "pnl_pct": -1.43
     }
   ],
   "cibles": [
     "LINK/USD",
     "AVAX/USD",
-    "LTC/USD"
+    "LTC/USD",
+    "DOGE/USD",
+    "DOT/USD"
   ]
 }
