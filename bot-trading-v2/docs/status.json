@@ -1,32 +1,44 @@
 {
-  "maj": "2026-08-27T20:59:10.941801+00:00",
+  "maj": "2026-08-28T05:17:17.694546+00:00",
   "kill_switch": false,
-  "equity": 9888.01,
-  "cash": 8164.31,
-  "perf_jour_pct": -0.18,
+  "equity": 9868.34,
+  "cash": 7477.19,
+  "perf_jour_pct": -0.38,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 461.29,
-      "pnl_pct": -3.52
+      "valeur": 460.55,
+      "pnl_pct": -3.68
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 363.81,
-      "pnl_pct": 4.45
+      "valeur": 361.27,
+      "pnl_pct": 3.72
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 415.0,
-      "pnl_pct": 5.1
+      "valeur": 409.41,
+      "pnl_pct": 3.68
+    },
+    {
+      "symbole": "ETHUSD",
+      "valeur": 325.88,
+      "pnl_pct": -0.14
+    },
+    {
+      "symbole": "LINKUSD",
+      "valeur": 359.13,
+      "pnl_pct": 0.01
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 483.6,
-      "pnl_pct": -0.88
+      "valeur": 474.92,
+      "pnl_pct": -2.66
     }
   ],
   "cibles": [
+    "LINK/USD",
+    "ETH/USD",
     "LTC/USD",
     "AVAX/USD",
     "DOGE/USD",
