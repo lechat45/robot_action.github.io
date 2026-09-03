@@ -1,59 +1,79 @@
 {
-  "maj": "2026-09-03T19:22:35.470182+00:00",
+  "maj": "2026-09-03T21:50:31.743170+00:00",
   "kill_switch": false,
-  "equity": 9871.22,
-  "cash": 3585.01,
-  "perf_jour_pct": 1.72,
+  "equity": 9858.4,
+  "cash": 2023.49,
+  "perf_jour_pct": 1.59,
   "positions": [
     {
+      "symbole": "AVAXUSD",
+      "valeur": 413.38,
+      "pnl_pct": -0.46
+    },
+    {
       "symbole": "BTCUSD",
-      "valeur": 552.08,
-      "pnl_pct": 4.85
+      "valeur": 552.94,
+      "pnl_pct": 5.02
+    },
+    {
+      "symbole": "DOGEUSD",
+      "valeur": 310.55,
+      "pnl_pct": -0.51
+    },
+    {
+      "symbole": "DOTUSD",
+      "valeur": 371.29,
+      "pnl_pct": 0.03
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 330.26,
-      "pnl_pct": 1.2
+      "valeur": 329.5,
+      "pnl_pct": 0.97
     },
     {
       "symbole": "JNJ",
-      "valeur": 1149.14,
-      "pnl_pct": 0.02
-    },
-    {
-      "symbole": "JPM",
-      "valeur": 1185.84,
-      "pnl_pct": 0.12
-    },
-    {
-      "symbole": "LINKUSD",
-      "valeur": 362.78,
-      "pnl_pct": 1.03
-    },
-    {
-      "symbole": "MA",
-      "valeur": 1153.74,
+      "valeur": 1146.91,
       "pnl_pct": -0.17
     },
     {
+      "symbole": "JPM",
+      "valeur": 1184.95,
+      "pnl_pct": 0.04
+    },
+    {
+      "symbole": "LINKUSD",
+      "valeur": 363.7,
+      "pnl_pct": 1.29
+    },
+    {
+      "symbole": "LTCUSD",
+      "valeur": 458.74,
+      "pnl_pct": -0.06
+    },
+    {
+      "symbole": "MA",
+      "valeur": 1153.45,
+      "pnl_pct": -0.19
+    },
+    {
       "symbole": "SOLUSD",
-      "valeur": 401.6,
-      "pnl_pct": 0.13
+      "valeur": 401.75,
+      "pnl_pct": 0.17
     },
     {
       "symbole": "V",
-      "valeur": 1150.78,
-      "pnl_pct": 0.07
+      "valeur": 1147.74,
+      "pnl_pct": -0.19
     }
   ],
   "cibles": [
-    "JPM",
-    "MA",
-    "V",
-    "JNJ",
     "LINK/USD",
     "ETH/USD",
     "BTC/USD",
-    "SOL/USD"
+    "SOL/USD",
+    "LTC/USD",
+    "DOGE/USD",
+    "AVAX/USD",
+    "DOT/USD"
   ]
 }
