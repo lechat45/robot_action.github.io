@@ -1,59 +1,78 @@
 {
-  "maj": "2026-09-04T19:24:33.049803+00:00",
+  "maj": "2026-09-04T21:41:45.897344+00:00",
   "kill_switch": false,
-  "equity": 9741.48,
-  "cash": 2894.78,
+  "equity": 9741.23,
+  "cash": 1351.72,
   "perf_jour_pct": -0.91,
   "positions": [
     {
+      "symbole": "AVAXUSD",
+      "valeur": 415.0,
+      "pnl_pct": 0.19
+    },
+    {
       "symbole": "BTCUSD",
-      "valeur": 540.34,
-      "pnl_pct": 2.62
+      "valeur": 540.78,
+      "pnl_pct": 2.71
+    },
+    {
+      "symbole": "DOGEUSD",
+      "valeur": 306.43,
+      "pnl_pct": -0.13
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 322.31,
-      "pnl_pct": -1.23
+      "valeur": 322.47,
+      "pnl_pct": -1.19
     },
     {
       "symbole": "JNJ",
-      "valeur": 1110.71,
-      "pnl_pct": -0.25
-    },
-    {
-      "symbole": "JPM",
-      "valeur": 1168.88,
-      "pnl_pct": -0.26
-    },
-    {
-      "symbole": "LINKUSD",
-      "valeur": 356.43,
-      "pnl_pct": -0.73
-    },
-    {
-      "symbole": "MA",
-      "valeur": 1168.75,
+      "valeur": 1110.52,
       "pnl_pct": -0.27
     },
     {
+      "symbole": "JPM",
+      "valeur": 1172.74,
+      "pnl_pct": 0.07
+    },
+    {
+      "symbole": "LINKUSD",
+      "valeur": 357.42,
+      "pnl_pct": -0.46
+    },
+    {
+      "symbole": "LTCUSD",
+      "valeur": 453.21,
+      "pnl_pct": 0.24
+    },
+    {
+      "symbole": "MA",
+      "valeur": 1167.7,
+      "pnl_pct": -0.36
+    },
+    {
       "symbole": "MSFT",
-      "valeur": 1009.69,
-      "pnl_pct": -0.12
+      "valeur": 1008.61,
+      "pnl_pct": -0.22
+    },
+    {
+      "symbole": "SOLUSD",
+      "valeur": 365.63,
+      "pnl_pct": -0.1
     },
     {
       "symbole": "V",
-      "valeur": 1169.58,
-      "pnl_pct": -0.2
+      "valeur": 1168.99,
+      "pnl_pct": -0.25
     }
   ],
   "cibles": [
-    "MA",
-    "JPM",
-    "V",
-    "JNJ",
-    "MSFT",
     "LINK/USD",
     "ETH/USD",
-    "BTC/USD"
+    "BTC/USD",
+    "SOL/USD",
+    "LTC/USD",
+    "DOGE/USD",
+    "AVAX/USD"
   ]
 }
