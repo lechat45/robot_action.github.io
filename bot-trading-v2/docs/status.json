@@ -1,29 +1,29 @@
 {
-  "maj": "2026-09-05T08:10:33.447402+00:00",
+  "maj": "2026-09-05T11:57:39.533582+00:00",
   "kill_switch": false,
-  "equity": 9769.96,
+  "equity": 9767.29,
   "cash": 1351.6,
-  "perf_jour_pct": 0.3,
+  "perf_jour_pct": 0.27,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 420.72,
-      "pnl_pct": 1.57
+      "valeur": 418.25,
+      "pnl_pct": 0.97
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 539.78,
-      "pnl_pct": 2.52
+      "valeur": 539.41,
+      "pnl_pct": 2.45
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 308.44,
-      "pnl_pct": 0.52
+      "valeur": 310.97,
+      "pnl_pct": 1.35
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 322.52,
-      "pnl_pct": -1.17
+      "valeur": 322.26,
+      "pnl_pct": -1.25
     },
     {
       "symbole": "JNJ",
@@ -37,13 +37,13 @@
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 359.77,
-      "pnl_pct": 0.19
+      "valeur": 359.31,
+      "pnl_pct": 0.07
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 474.35,
-      "pnl_pct": 4.91
+      "valeur": 471.62,
+      "pnl_pct": 4.31
     },
     {
       "symbole": "MA",
@@ -57,8 +57,8 @@
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 367.06,
-      "pnl_pct": 0.29
+      "valeur": 368.13,
+      "pnl_pct": 0.58
     },
     {
       "symbole": "V",
