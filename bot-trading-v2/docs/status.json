@@ -1,74 +1,74 @@
 {
-  "maj": "2026-09-11T08:44:06.656857+00:00",
+  "maj": "2026-09-11T13:23:26.104622+00:00",
   "kill_switch": false,
-  "equity": 9585.93,
+  "equity": 9633.64,
   "cash": 660.49,
-  "perf_jour_pct": 0.4,
+  "perf_jour_pct": 0.9,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 544.61,
-      "pnl_pct": -1.45
+      "valeur": 550.35,
+      "pnl_pct": -0.41
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 523.99,
-      "pnl_pct": -0.48
+      "valeur": 526.25,
+      "pnl_pct": -0.05
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 424.13,
-      "pnl_pct": -0.65
+      "valeur": 430.67,
+      "pnl_pct": 0.88
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 250.61,
-      "pnl_pct": -0.57
+      "valeur": 243.73,
+      "pnl_pct": -3.3
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 325.19,
-      "pnl_pct": -0.35
+      "valeur": 327.87,
+      "pnl_pct": 0.47
     },
     {
       "symbole": "JNJ",
-      "valeur": 1007.39,
-      "pnl_pct": 0.41
+      "valeur": 1009.61,
+      "pnl_pct": 0.63
     },
     {
       "symbole": "JPM",
-      "valeur": 1162.97,
-      "pnl_pct": 1.17
+      "valeur": 1164.85,
+      "pnl_pct": 1.33
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 303.36,
-      "pnl_pct": -5.3
+      "valeur": 305.25,
+      "pnl_pct": -4.71
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 579.26,
-      "pnl_pct": 0.99
+      "valeur": 580.29,
+      "pnl_pct": 1.17
     },
     {
       "symbole": "MA",
-      "valeur": 1150.11,
-      "pnl_pct": 0.24
+      "valeur": 1157.0,
+      "pnl_pct": 0.84
     },
     {
       "symbole": "MSFT",
-      "valeur": 1052.19,
-      "pnl_pct": 0.03
+      "valeur": 1061.91,
+      "pnl_pct": 0.96
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 449.79,
-      "pnl_pct": 0.03
+      "valeur": 456.56,
+      "pnl_pct": 1.53
     },
     {
       "symbole": "V",
-      "valeur": 1151.83,
-      "pnl_pct": 0.29
+      "valeur": 1158.8,
+      "pnl_pct": 0.9
     }
   ],
   "cibles": [
