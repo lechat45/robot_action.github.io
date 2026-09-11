@@ -1,74 +1,74 @@
 {
-  "maj": "2026-09-11T03:39:24.750156+00:00",
+  "maj": "2026-09-11T08:44:06.656857+00:00",
   "kill_switch": false,
-  "equity": 9555.26,
-  "cash": 660.63,
-  "perf_jour_pct": -0.78,
+  "equity": 9585.93,
+  "cash": 660.49,
+  "perf_jour_pct": 0.4,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 545.16,
-      "pnl_pct": -1.35
+      "valeur": 544.61,
+      "pnl_pct": -1.45
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 520.15,
-      "pnl_pct": -1.21
+      "valeur": 523.99,
+      "pnl_pct": -0.48
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 420.23,
-      "pnl_pct": -1.57
+      "valeur": 424.13,
+      "pnl_pct": -0.65
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 250.28,
-      "pnl_pct": -0.7
+      "valeur": 250.61,
+      "pnl_pct": -0.57
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 320.83,
-      "pnl_pct": -1.69
+      "valeur": 325.19,
+      "pnl_pct": -0.35
     },
     {
       "symbole": "JNJ",
-      "valeur": 1001.85,
-      "pnl_pct": -0.15
+      "valeur": 1007.39,
+      "pnl_pct": 0.41
     },
     {
       "symbole": "JPM",
-      "valeur": 1156.46,
-      "pnl_pct": 0.6
+      "valeur": 1162.97,
+      "pnl_pct": 1.17
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 304.84,
-      "pnl_pct": -4.84
+      "valeur": 303.36,
+      "pnl_pct": -5.3
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 579.07,
-      "pnl_pct": 0.96
+      "valeur": 579.26,
+      "pnl_pct": 0.99
     },
     {
       "symbole": "MA",
-      "valeur": 1148.18,
-      "pnl_pct": 0.08
+      "valeur": 1150.11,
+      "pnl_pct": 0.24
     },
     {
       "symbole": "MSFT",
-      "valeur": 1048.05,
-      "pnl_pct": -0.36
+      "valeur": 1052.19,
+      "pnl_pct": 0.03
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 446.6,
-      "pnl_pct": -0.68
+      "valeur": 449.79,
+      "pnl_pct": 0.03
     },
     {
       "symbole": "V",
-      "valeur": 1152.93,
-      "pnl_pct": 0.38
+      "valeur": 1151.83,
+      "pnl_pct": 0.29
     }
   ],
   "cibles": [
