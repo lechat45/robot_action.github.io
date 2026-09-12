@@ -1,49 +1,49 @@
 {
-  "maj": "2026-09-11T22:24:18.752505+00:00",
+  "maj": "2026-09-12T00:29:48.427837+00:00",
   "kill_switch": false,
-  "equity": 9607.22,
+  "equity": 9612.39,
   "cash": 680.66,
-  "perf_jour_pct": 0.63,
+  "perf_jour_pct": 0.68,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 561.89,
-      "pnl_pct": -0.32
+      "valeur": 561.74,
+      "pnl_pct": -0.35
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 522.74,
-      "pnl_pct": -0.72
+      "valeur": 523.37,
+      "pnl_pct": -0.6
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 416.42,
-      "pnl_pct": -0.45
+      "valeur": 418.96,
+      "pnl_pct": 0.16
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 245.03,
-      "pnl_pct": -0.03
+      "valeur": 247.17,
+      "pnl_pct": 0.85
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 330.58,
-      "pnl_pct": 1.3
+      "valeur": 329.99,
+      "pnl_pct": 1.12
     },
     {
       "symbole": "JNJ",
-      "valeur": 1011.26,
-      "pnl_pct": 0.06
+      "valeur": 1012.25,
+      "pnl_pct": 0.15
     },
     {
       "symbole": "JPM",
-      "valeur": 1155.82,
-      "pnl_pct": -0.16
+      "valeur": 1156.96,
+      "pnl_pct": -0.06
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 305.13,
-      "pnl_pct": -4.75
+      "valeur": 305.77,
+      "pnl_pct": -4.55
     },
     {
       "symbole": "LTCUSD",
@@ -52,31 +52,31 @@
     },
     {
       "symbole": "MA",
-      "valeur": 1158.69,
-      "pnl_pct": 0.09
+      "valeur": 1157.81,
+      "pnl_pct": 0.01
     },
     {
       "symbole": "MSFT",
-      "valeur": 1068.86,
-      "pnl_pct": 0.09
+      "valeur": 1067.41,
+      "pnl_pct": -0.05
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 432.27,
-      "pnl_pct": -0.11
+      "valeur": 433.18,
+      "pnl_pct": 0.1
     },
     {
       "symbole": "V",
-      "valeur": 1157.73,
-      "pnl_pct": 0.01
+      "valeur": 1156.98,
+      "pnl_pct": -0.06
     }
   ],
   "cibles": [
     "ETH/USD",
     "LINK/USD",
     "BTC/USD",
-    "SOL/USD",
     "LTC/USD",
+    "SOL/USD",
     "AVAX/USD",
     "DOGE/USD",
     "DOT/USD"
