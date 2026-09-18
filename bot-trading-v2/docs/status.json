@@ -1,19 +1,19 @@
 {
-  "maj": "2026-09-18T20:36:33.991158+00:00",
+  "maj": "2026-09-18T23:07:02.725900+00:00",
   "kill_switch": false,
-  "equity": 9698.03,
+  "equity": 9709.54,
   "cash": -178.14,
-  "perf_jour_pct": 1.65,
+  "perf_jour_pct": 1.77,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 437.62,
-      "pnl_pct": -0.1
+      "valeur": 436.21,
+      "pnl_pct": -0.42
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 656.02,
-      "pnl_pct": 0.18
+      "valeur": 657.53,
+      "pnl_pct": 0.41
     },
     {
       "symbole": "DOGEUSD",
@@ -22,33 +22,33 @@
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 235.54,
-      "pnl_pct": -0.4
+      "valeur": 234.5,
+      "pnl_pct": -0.84
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 344.7,
-      "pnl_pct": 5.63
+      "valeur": 343.87,
+      "pnl_pct": 5.37
     },
     {
       "symbole": "JNJ",
-      "valeur": 1171.52,
-      "pnl_pct": 0.74
+      "valeur": 1171.65,
+      "pnl_pct": 0.75
     },
     {
       "symbole": "JPM",
-      "valeur": 1169.41,
-      "pnl_pct": 0.56
+      "valeur": 1170.73,
+      "pnl_pct": 0.67
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 332.9,
-      "pnl_pct": 0.0
+      "valeur": 330.5,
+      "pnl_pct": -0.72
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 485.56,
-      "pnl_pct": -1.76
+      "valeur": 494.2,
+      "pnl_pct": -0.02
     },
     {
       "symbole": "MA",
@@ -57,23 +57,23 @@
     },
     {
       "symbole": "MSFT",
-      "valeur": 1054.3,
-      "pnl_pct": 0.46
+      "valeur": 1054.17,
+      "pnl_pct": 0.44
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 374.05,
-      "pnl_pct": -0.2
+      "valeur": 373.36,
+      "pnl_pct": -0.39
     },
     {
       "symbole": "V",
-      "valeur": 1158.46,
-      "pnl_pct": -0.38
+      "valeur": 1159.66,
+      "pnl_pct": -0.28
     },
     {
       "symbole": "XOM",
-      "valeur": 894.6,
-      "pnl_pct": -0.16
+      "valeur": 899.83,
+      "pnl_pct": 0.42
     }
   ],
   "cibles": [
