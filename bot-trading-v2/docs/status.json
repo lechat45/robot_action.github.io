@@ -1,29 +1,59 @@
 {
-  "maj": "2026-09-18T14:21:46.654679+00:00",
+  "maj": "2026-09-18T17:47:47.934604+00:00",
   "kill_switch": false,
-  "equity": 9684.2,
-  "cash": 8787.63,
-  "perf_jour_pct": 1.5,
+  "equity": 9710.29,
+  "cash": 2106.03,
+  "perf_jour_pct": 1.78,
   "positions": [
     {
-      "symbole": "ETHUSD",
-      "valeur": 337.52,
-      "pnl_pct": 3.43
+      "symbole": "BTCUSD",
+      "valeur": 654.01,
+      "pnl_pct": -0.13
     },
     {
-      "symbole": "SOLUSD",
-      "valeur": 559.05,
-      "pnl_pct": 13.04
+      "symbole": "ETHUSD",
+      "valeur": 340.17,
+      "pnl_pct": 4.24
+    },
+    {
+      "symbole": "JNJ",
+      "valeur": 1174.9,
+      "pnl_pct": 1.03
+    },
+    {
+      "symbole": "JPM",
+      "valeur": 1161.79,
+      "pnl_pct": -0.1
+    },
+    {
+      "symbole": "MA",
+      "valeur": 1161.33,
+      "pnl_pct": -0.14
+    },
+    {
+      "symbole": "MSFT",
+      "valeur": 1055.27,
+      "pnl_pct": 0.55
+    },
+    {
+      "symbole": "V",
+      "valeur": 1161.17,
+      "pnl_pct": -0.15
+    },
+    {
+      "symbole": "XOM",
+      "valeur": 895.62,
+      "pnl_pct": -0.05
     }
   ],
   "cibles": [
     "MSFT",
-    "ETH/USD",
     "MA",
     "JNJ",
+    "ETH/USD",
     "XOM",
     "V",
-    "SOL/USD",
-    "JPM"
+    "JPM",
+    "BTC/USD"
   ]
 }
