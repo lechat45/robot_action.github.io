@@ -1,49 +1,54 @@
 {
-  "maj": "2026-09-22T01:06:06.583934+00:00",
+  "maj": "2026-09-22T06:38:45.778245+00:00",
   "kill_switch": false,
-  "equity": 9954.26,
-  "cash": 624.45,
-  "perf_jour_pct": 2.1,
+  "equity": 9942.75,
+  "cash": 395.81,
+  "perf_jour_pct": 1.98,
   "positions": [
     {
       "symbole": "AAPL",
-      "valeur": 1111.61,
-      "pnl_pct": 0.01
+      "valeur": 1113.97,
+      "pnl_pct": 0.22
+    },
+    {
+      "symbole": "AVAXUSD",
+      "valeur": 225.42,
+      "pnl_pct": -1.16
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 572.0,
-      "pnl_pct": -0.92
+      "valeur": 571.15,
+      "pnl_pct": -1.06
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 314.8,
-      "pnl_pct": -1.51
+      "valeur": 316.99,
+      "pnl_pct": -0.83
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 241.13,
-      "pnl_pct": -1.13
+      "valeur": 235.67,
+      "pnl_pct": -3.37
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 359.66,
-      "pnl_pct": 10.21
+      "valeur": 358.61,
+      "pnl_pct": 9.89
     },
     {
       "symbole": "JNJ",
-      "valeur": 1188.38,
-      "pnl_pct": -0.8
+      "valeur": 1184.93,
+      "pnl_pct": -1.09
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 344.73,
-      "pnl_pct": -1.44
+      "valeur": 342.34,
+      "pnl_pct": -2.13
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 454.49,
-      "pnl_pct": -0.05
+      "valeur": 450.93,
+      "pnl_pct": -0.83
     },
     {
       "symbole": "MA",
@@ -52,23 +57,23 @@
     },
     {
       "symbole": "MSFT",
-      "valeur": 1088.16,
-      "pnl_pct": 0.59
+      "valeur": 1093.42,
+      "pnl_pct": 1.07
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 388.61,
-      "pnl_pct": 3.68
+      "valeur": 384.75,
+      "pnl_pct": 2.65
     },
     {
       "symbole": "V",
-      "valeur": 1203.77,
-      "pnl_pct": 0.48
+      "valeur": 1202.53,
+      "pnl_pct": 0.38
     },
     {
       "symbole": "XOM",
-      "valeur": 861.71,
-      "pnl_pct": -0.4
+      "valeur": 865.47,
+      "pnl_pct": 0.04
     }
   ],
   "cibles": [
@@ -78,6 +83,7 @@
     "BTC/USD",
     "DOT/USD",
     "LTC/USD",
-    "DOGE/USD"
+    "DOGE/USD",
+    "AVAX/USD"
   ]
 }
