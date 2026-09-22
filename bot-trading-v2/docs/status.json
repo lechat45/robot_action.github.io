@@ -1,69 +1,74 @@
 {
-  "maj": "2026-09-21T22:30:38.433096+00:00",
+  "maj": "2026-09-22T01:06:06.583934+00:00",
   "kill_switch": false,
-  "equity": 9986.46,
-  "cash": 1080.32,
-  "perf_jour_pct": 2.43,
+  "equity": 9954.26,
+  "cash": 624.45,
+  "perf_jour_pct": 2.1,
   "positions": [
     {
       "symbole": "AAPL",
-      "valeur": 1112.21,
-      "pnl_pct": 0.06
+      "valeur": 1111.61,
+      "pnl_pct": 0.01
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 576.85,
-      "pnl_pct": -0.07
+      "valeur": 572.0,
+      "pnl_pct": -0.92
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 318.76,
-      "pnl_pct": -0.27
+      "valeur": 314.8,
+      "pnl_pct": -1.51
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 242.99,
-      "pnl_pct": -0.37
+      "valeur": 241.13,
+      "pnl_pct": -1.13
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 364.53,
-      "pnl_pct": 11.7
+      "valeur": 359.66,
+      "pnl_pct": 10.21
     },
     {
       "symbole": "JNJ",
-      "valeur": 1190.46,
-      "pnl_pct": -0.63
+      "valeur": 1188.38,
+      "pnl_pct": -0.8
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 348.94,
-      "pnl_pct": -0.24
+      "valeur": 344.73,
+      "pnl_pct": -1.44
+    },
+    {
+      "symbole": "LTCUSD",
+      "valeur": 454.49,
+      "pnl_pct": -0.05
     },
     {
       "symbole": "MA",
-      "valeur": 1202.14,
-      "pnl_pct": 0.34
+      "valeur": 1200.77,
+      "pnl_pct": 0.23
     },
     {
       "symbole": "MSFT",
-      "valeur": 1089.58,
-      "pnl_pct": 0.72
+      "valeur": 1088.16,
+      "pnl_pct": 0.59
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 393.57,
-      "pnl_pct": 5.01
+      "valeur": 388.61,
+      "pnl_pct": 3.68
     },
     {
       "symbole": "V",
-      "valeur": 1203.8,
+      "valeur": 1203.77,
       "pnl_pct": 0.48
     },
     {
       "symbole": "XOM",
-      "valeur": 862.31,
-      "pnl_pct": -0.33
+      "valeur": 861.71,
+      "pnl_pct": -0.4
     }
   ],
   "cibles": [
@@ -72,6 +77,7 @@
     "LINK/USD",
     "BTC/USD",
     "DOT/USD",
+    "LTC/USD",
     "DOGE/USD"
   ]
 }
