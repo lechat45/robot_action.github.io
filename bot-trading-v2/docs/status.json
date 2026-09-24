@@ -1,29 +1,44 @@
 {
-  "maj": "2026-09-24T14:19:56.809513+00:00",
+  "maj": "2026-09-24T18:36:01.327870+00:00",
   "kill_switch": false,
-  "equity": 9934.67,
-  "cash": 7828.32,
-  "perf_jour_pct": 0.61,
+  "equity": 9935.83,
+  "cash": 3505.76,
+  "perf_jour_pct": 0.62,
   "positions": [
     {
-      "symbole": "ETHUSD",
-      "valeur": 350.43,
-      "pnl_pct": 7.38
+      "symbole": "AAPL",
+      "valeur": 1093.19,
+      "pnl_pct": -0.05
     },
     {
-      "symbole": "LINKUSD",
-      "valeur": 333.8,
-      "pnl_pct": -4.57
+      "symbole": "ETHUSD",
+      "valeur": 351.98,
+      "pnl_pct": 7.86
+    },
+    {
+      "symbole": "JNJ",
+      "valeur": 1179.85,
+      "pnl_pct": -1.05
+    },
+    {
+      "symbole": "MA",
+      "valeur": 1182.96,
+      "pnl_pct": -0.79
     },
     {
       "symbole": "MSFT",
-      "valeur": 1041.5,
-      "pnl_pct": -0.02
+      "valeur": 1047.15,
+      "pnl_pct": 0.53
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 380.62,
-      "pnl_pct": 1.55
+      "valeur": 386.73,
+      "pnl_pct": 3.18
+    },
+    {
+      "symbole": "V",
+      "valeur": 1188.2,
+      "pnl_pct": -0.35
     }
   ],
   "cibles": [
@@ -34,6 +49,6 @@
     "V",
     "SOL/USD",
     "AAPL",
-    "LINK/USD"
+    "XOM"
   ]
 }
