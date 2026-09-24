@@ -1,34 +1,34 @@
 {
-  "maj": "2026-09-23T23:53:53.513216+00:00",
+  "maj": "2026-09-24T03:45:38.208384+00:00",
   "kill_switch": false,
-  "equity": 9871.62,
-  "cash": 1560.66,
-  "perf_jour_pct": -1.01,
+  "equity": 9902.26,
+  "cash": 2046.91,
+  "perf_jour_pct": -0.71,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 215.32,
-      "pnl_pct": -0.4
+      "valeur": 215.35,
+      "pnl_pct": -0.39
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 599.82,
-      "pnl_pct": -0.04
+      "valeur": 597.28,
+      "pnl_pct": -0.46
     },
     {
       "symbole": "DOGEUSD",
-      "valeur": 306.04,
-      "pnl_pct": 0.57
+      "valeur": 307.62,
+      "pnl_pct": 1.09
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 220.65,
-      "pnl_pct": 0.32
+      "valeur": 223.65,
+      "pnl_pct": 1.68
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 352.24,
-      "pnl_pct": 7.94
+      "valeur": 351.17,
+      "pnl_pct": 7.61
     },
     {
       "symbole": "JNJ",
@@ -37,13 +37,8 @@
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 327.44,
-      "pnl_pct": -6.39
-    },
-    {
-      "symbole": "LTCUSD",
-      "valeur": 449.03,
-      "pnl_pct": 1.01
+      "valeur": 329.58,
+      "pnl_pct": -5.78
     },
     {
       "symbole": "MA",
@@ -52,23 +47,23 @@
     },
     {
       "symbole": "MSFT",
-      "valeur": 1053.08,
-      "pnl_pct": 0.1
+      "valeur": 1050.49,
+      "pnl_pct": -0.15
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 379.8,
-      "pnl_pct": 1.33
+      "valeur": 379.04,
+      "pnl_pct": 1.13
     },
     {
       "symbole": "V",
-      "valeur": 1182.58,
-      "pnl_pct": -0.09
+      "valeur": 1182.75,
+      "pnl_pct": -0.07
     },
     {
       "symbole": "XOM",
-      "valeur": 851.8,
-      "pnl_pct": 0.12
+      "valeur": 845.25,
+      "pnl_pct": -0.65
     }
   ],
   "cibles": [
@@ -76,9 +71,8 @@
     "SOL/USD",
     "LINK/USD",
     "BTC/USD",
-    "LTC/USD",
+    "AVAX/USD",
     "DOT/USD",
-    "DOGE/USD",
-    "AVAX/USD"
+    "DOGE/USD"
   ]
 }
