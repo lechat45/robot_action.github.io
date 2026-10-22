@@ -1,29 +1,44 @@
 {
-  "maj": "2026-10-22T19:50:05.599106+00:00",
+  "maj": "2026-10-22T23:02:42.161516+00:00",
   "kill_switch": false,
-  "equity": 9544.85,
-  "cash": 4833.96,
-  "perf_jour_pct": -1.4,
+  "equity": 9552.0,
+  "cash": 2315.78,
+  "perf_jour_pct": -1.33,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 364.54,
-      "pnl_pct": -3.93
+      "valeur": 366.38,
+      "pnl_pct": -3.44
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 598.65,
-      "pnl_pct": -3.27
+      "valeur": 598.24,
+      "pnl_pct": -3.33
     },
     {
       "symbole": "DIS",
-      "valeur": 1149.31,
-      "pnl_pct": 0.07
+      "valeur": 1153.79,
+      "pnl_pct": 0.46
+    },
+    {
+      "symbole": "DOGEUSD",
+      "valeur": 527.46,
+      "pnl_pct": 0.53
+    },
+    {
+      "symbole": "DOTUSD",
+      "valeur": 321.8,
+      "pnl_pct": 0.29
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 313.37,
-      "pnl_pct": -3.97
+      "valeur": 313.59,
+      "pnl_pct": -3.9
+    },
+    {
+      "symbole": "LINKUSD",
+      "valeur": 514.21,
+      "pnl_pct": 0.23
     },
     {
       "symbole": "LTCUSD",
@@ -32,23 +47,28 @@
     },
     {
       "symbole": "MSFT",
-      "valeur": 1014.55,
-      "pnl_pct": -0.77
+      "valeur": 1015.85,
+      "pnl_pct": -0.64
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 600.12,
-      "pnl_pct": 0.1
+      "valeur": 597.62,
+      "pnl_pct": -0.32
+    },
+    {
+      "symbole": "XOM",
+      "valeur": 1147.74,
+      "pnl_pct": 0.19
     }
   ],
   "cibles": [
-    "MSFT",
     "BTC/USD",
     "SOL/USD",
     "AVAX/USD",
-    "DIS",
     "LTC/USD",
     "ETH/USD",
-    "XOM"
+    "DOT/USD",
+    "LINK/USD",
+    "DOGE/USD"
   ]
 }
