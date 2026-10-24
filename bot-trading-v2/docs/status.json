@@ -1,79 +1,73 @@
 {
-  "maj": "2026-10-23T23:56:00.318030+00:00",
+  "maj": "2026-10-24T03:49:09.388761+00:00",
   "kill_switch": false,
-  "equity": 9489.73,
-  "cash": 650.42,
-  "perf_jour_pct": -0.94,
+  "equity": 9497.85,
+  "cash": 1169.43,
+  "perf_jour_pct": -0.85,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 363.2,
-      "pnl_pct": -4.28
+      "valeur": 364.06,
+      "pnl_pct": -4.06
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 597.14,
-      "pnl_pct": -3.51
+      "valeur": 595.63,
+      "pnl_pct": -3.75
     },
     {
       "symbole": "DIS",
-      "valeur": 1147.95,
-      "pnl_pct": -0.05
-    },
-    {
-      "symbole": "DOGEUSD",
-      "valeur": 518.91,
-      "pnl_pct": -1.33
+      "valeur": 1147.64,
+      "pnl_pct": -0.08
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 312.03,
-      "pnl_pct": -3.68
+      "valeur": 314.31,
+      "pnl_pct": -2.98
     },
     {
       "symbole": "ETHUSD",
-      "valeur": 680.58,
-      "pnl_pct": -0.71
+      "valeur": 680.78,
+      "pnl_pct": -0.68
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 526.73,
-      "pnl_pct": -1.62
+      "valeur": 532.65,
+      "pnl_pct": -0.51
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 648.93,
-      "pnl_pct": -1.1
+      "valeur": 651.82,
+      "pnl_pct": -0.66
     },
     {
       "symbole": "MA",
-      "valeur": 1153.27,
-      "pnl_pct": 0.41
+      "valeur": 1152.9,
+      "pnl_pct": 0.38
     },
     {
       "symbole": "MSFT",
-      "valeur": 1148.23,
+      "valeur": 1148.25,
       "pnl_pct": -0.03
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 596.05,
-      "pnl_pct": -0.58
+      "valeur": 594.65,
+      "pnl_pct": -0.81
     },
     {
       "symbole": "V",
-      "valeur": 1146.28,
-      "pnl_pct": -0.2
+      "valeur": 1145.72,
+      "pnl_pct": -0.25
     }
   ],
   "cibles": [
-    "AVAX/USD",
-    "BTC/USD",
     "LTC/USD",
     "SOL/USD",
+    "AVAX/USD",
+    "BTC/USD",
     "DOT/USD",
     "LINK/USD",
-    "ETH/USD",
-    "DOGE/USD"
+    "ETH/USD"
   ]
 }
