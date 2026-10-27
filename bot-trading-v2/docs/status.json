@@ -1,19 +1,19 @@
 {
-  "maj": "2026-10-27T00:00:27.103213+00:00",
+  "maj": "2026-10-27T04:51:20.763155+00:00",
   "kill_switch": false,
-  "equity": 9366.48,
-  "cash": -459.27,
-  "perf_jour_pct": -1.27,
+  "equity": 9329.77,
+  "cash": 164.8,
+  "perf_jour_pct": -1.65,
   "positions": [
     {
       "symbole": "AVAXUSD",
-      "valeur": 359.2,
-      "pnl_pct": -5.33
+      "valeur": 415.0,
+      "pnl_pct": 0.32
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 970.44,
-      "pnl_pct": 0.25
+      "valeur": 964.91,
+      "pnl_pct": -0.32
     },
     {
       "symbole": "DIS",
@@ -22,48 +22,43 @@
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 319.42,
-      "pnl_pct": 0.6
-    },
-    {
-      "symbole": "ETHUSD",
-      "valeur": 695.49,
-      "pnl_pct": 0.34
+      "valeur": 314.66,
+      "pnl_pct": -0.9
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 547.46,
-      "pnl_pct": -0.08
+      "valeur": 545.53,
+      "pnl_pct": -0.43
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 643.57,
-      "pnl_pct": -1.91
+      "valeur": 646.08,
+      "pnl_pct": -1.53
     },
     {
       "symbole": "MA",
-      "valeur": 1124.48,
-      "pnl_pct": -0.37
+      "valeur": 1123.56,
+      "pnl_pct": -0.45
     },
     {
       "symbole": "META",
-      "valeur": 566.8,
-      "pnl_pct": -2.19
+      "valeur": 567.25,
+      "pnl_pct": -2.11
     },
     {
       "symbole": "MSFT",
-      "valeur": 1134.05,
-      "pnl_pct": 0.48
+      "valeur": 1130.2,
+      "pnl_pct": 0.14
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 660.21,
-      "pnl_pct": 0.56
+      "valeur": 654.62,
+      "pnl_pct": -0.29
     },
     {
       "symbole": "TSLA",
-      "valeur": 561.76,
-      "pnl_pct": -0.76
+      "valeur": 560.3,
+      "pnl_pct": -1.02
     },
     {
       "symbole": "V",
@@ -74,10 +69,9 @@
   "cibles": [
     "AVAX/USD",
     "LTC/USD",
+    "DOT/USD",
     "SOL/USD",
     "BTC/USD",
-    "DOT/USD",
-    "LINK/USD",
-    "ETH/USD"
+    "LINK/USD"
   ]
 }
