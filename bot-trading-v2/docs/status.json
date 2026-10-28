@@ -1,87 +1,54 @@
 {
-  "maj": "2026-10-28T13:23:15.645518+00:00",
+  "maj": "2026-10-28T19:00:10.095785+00:00",
   "kill_switch": false,
-  "equity": 9330.3,
-  "cash": -1693.1,
-  "perf_jour_pct": -0.15,
+  "equity": 9339.22,
+  "cash": 4438.18,
+  "perf_jour_pct": -0.05,
   "positions": [
     {
-      "symbole": "AMZN",
-      "valeur": 688.63,
-      "pnl_pct": 0.32
-    },
-    {
       "symbole": "AVAXUSD",
-      "valeur": 414.31,
-      "pnl_pct": 0.28
-    },
-    {
-      "symbole": "BTCUSD",
-      "valeur": 1027.12,
-      "pnl_pct": -0.02
-    },
-    {
-      "symbole": "DIS",
-      "valeur": 1077.38,
-      "pnl_pct": -0.03
-    },
-    {
-      "symbole": "DOTUSD",
-      "valeur": 336.73,
-      "pnl_pct": 0.79
-    },
-    {
-      "symbole": "LINKUSD",
-      "valeur": 578.85,
-      "pnl_pct": 1.14
-    },
-    {
-      "symbole": "LTCUSD",
-      "valeur": 588.71,
-      "pnl_pct": 1.96
+      "valeur": 414.08,
+      "pnl_pct": 0.23
     },
     {
       "symbole": "MA",
-      "valeur": 1103.29,
-      "pnl_pct": -0.12
+      "valeur": 1121.53,
+      "pnl_pct": -0.02
     },
     {
       "symbole": "META",
-      "valeur": 613.27,
-      "pnl_pct": -0.53
+      "valeur": 617.5,
+      "pnl_pct": -0.01
     },
     {
       "symbole": "MSFT",
-      "valeur": 1113.91,
-      "pnl_pct": -0.69
-    },
-    {
-      "symbole": "SOLUSD",
-      "valeur": 686.13,
-      "pnl_pct": -0.17
+      "valeur": 1121.67,
+      "pnl_pct": -0.01
     },
     {
       "symbole": "TSLA",
-      "valeur": 579.59,
-      "pnl_pct": 0.62
+      "valeur": 565.62,
+      "pnl_pct": -0.03
     },
     {
       "symbole": "V",
-      "valeur": 1099.26,
-      "pnl_pct": -0.2
+      "valeur": 1121.5,
+      "pnl_pct": -0.03
     },
     {
       "symbole": "XOM",
-      "valeur": 1116.22,
-      "pnl_pct": -0.48
+      "valeur": 1060.64,
+      "pnl_pct": -0.01
     }
   ],
   "cibles": [
-    "AVAX/USD",
-    "DOT/USD",
-    "LTC/USD",
-    "SOL/USD",
-    "BTC/USD",
-    "LINK/USD"
+    "MSFT",
+    "XOM",
+    "TSLA",
+    "DIS",
+    "V",
+    "MA",
+    "META",
+    "AVAX/USD"
   ]
 }
