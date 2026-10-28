@@ -1,79 +1,79 @@
 {
-  "maj": "2026-10-28T06:04:16.546058+00:00",
+  "maj": "2026-10-28T13:23:15.645518+00:00",
   "kill_switch": false,
-  "equity": 9328.25,
-  "cash": -1692.97,
-  "perf_jour_pct": -0.34,
+  "equity": 9330.3,
+  "cash": -1693.1,
+  "perf_jour_pct": -0.15,
   "positions": [
     {
       "symbole": "AMZN",
-      "valeur": 690.65,
-      "pnl_pct": 0.61
+      "valeur": 688.63,
+      "pnl_pct": 0.32
     },
     {
       "symbole": "AVAXUSD",
-      "valeur": 417.81,
-      "pnl_pct": 1.13
+      "valeur": 414.31,
+      "pnl_pct": 0.28
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 1030.58,
-      "pnl_pct": 0.31
+      "valeur": 1027.12,
+      "pnl_pct": -0.02
     },
     {
       "symbole": "DIS",
-      "valeur": 1082.34,
-      "pnl_pct": 0.43
+      "valeur": 1077.38,
+      "pnl_pct": -0.03
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 336.8,
-      "pnl_pct": 0.81
+      "valeur": 336.73,
+      "pnl_pct": 0.79
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 585.95,
-      "pnl_pct": 2.38
+      "valeur": 578.85,
+      "pnl_pct": 1.14
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 585.52,
-      "pnl_pct": 1.41
+      "valeur": 588.71,
+      "pnl_pct": 1.96
     },
     {
       "symbole": "MA",
-      "valeur": 1094.66,
-      "pnl_pct": -0.9
+      "valeur": 1103.29,
+      "pnl_pct": -0.12
     },
     {
       "symbole": "META",
-      "valeur": 612.14,
-      "pnl_pct": -0.72
+      "valeur": 613.27,
+      "pnl_pct": -0.53
     },
     {
       "symbole": "MSFT",
-      "valeur": 1111.81,
-      "pnl_pct": -0.88
+      "valeur": 1113.91,
+      "pnl_pct": -0.69
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 690.23,
-      "pnl_pct": 0.43
+      "valeur": 686.13,
+      "pnl_pct": -0.17
     },
     {
       "symbole": "TSLA",
-      "valeur": 580.97,
-      "pnl_pct": 0.86
+      "valeur": 579.59,
+      "pnl_pct": 0.62
     },
     {
       "symbole": "V",
-      "valeur": 1090.25,
-      "pnl_pct": -1.02
+      "valeur": 1099.26,
+      "pnl_pct": -0.2
     },
     {
       "symbole": "XOM",
-      "valeur": 1111.52,
-      "pnl_pct": -0.9
+      "valeur": 1116.22,
+      "pnl_pct": -0.48
     }
   ],
   "cibles": [
