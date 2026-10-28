@@ -1,24 +1,24 @@
 {
-  "maj": "2026-10-28T00:18:39.798044+00:00",
+  "maj": "2026-10-28T06:04:16.546058+00:00",
   "kill_switch": false,
-  "equity": 9309.81,
+  "equity": 9328.25,
   "cash": -1692.97,
-  "perf_jour_pct": -0.54,
+  "perf_jour_pct": -0.34,
   "positions": [
     {
       "symbole": "AMZN",
-      "valeur": 691.58,
-      "pnl_pct": 0.75
+      "valeur": 690.65,
+      "pnl_pct": 0.61
     },
     {
       "symbole": "AVAXUSD",
-      "valeur": 416.87,
-      "pnl_pct": 0.9
+      "valeur": 417.81,
+      "pnl_pct": 1.13
     },
     {
       "symbole": "BTCUSD",
-      "valeur": 1028.72,
-      "pnl_pct": 0.13
+      "valeur": 1030.58,
+      "pnl_pct": 0.31
     },
     {
       "symbole": "DIS",
@@ -27,18 +27,18 @@
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 335.35,
-      "pnl_pct": 0.37
+      "valeur": 336.8,
+      "pnl_pct": 0.81
     },
     {
       "symbole": "LINKUSD",
-      "valeur": 576.85,
-      "pnl_pct": 0.8
+      "valeur": 585.95,
+      "pnl_pct": 2.38
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 582.17,
-      "pnl_pct": 0.83
+      "valeur": 585.52,
+      "pnl_pct": 1.41
     },
     {
       "symbole": "MA",
@@ -47,33 +47,33 @@
     },
     {
       "symbole": "META",
-      "valeur": 610.91,
-      "pnl_pct": -0.92
+      "valeur": 612.14,
+      "pnl_pct": -0.72
     },
     {
       "symbole": "MSFT",
-      "valeur": 1117.02,
-      "pnl_pct": -0.41
+      "valeur": 1111.81,
+      "pnl_pct": -0.88
     },
     {
       "symbole": "SOLUSD",
-      "valeur": 686.08,
-      "pnl_pct": -0.18
+      "valeur": 690.23,
+      "pnl_pct": 0.43
     },
     {
       "symbole": "TSLA",
-      "valeur": 577.07,
-      "pnl_pct": 0.19
+      "valeur": 580.97,
+      "pnl_pct": 0.86
     },
     {
       "symbole": "V",
-      "valeur": 1090.88,
-      "pnl_pct": -0.96
+      "valeur": 1090.25,
+      "pnl_pct": -1.02
     },
     {
       "symbole": "XOM",
-      "valeur": 1112.29,
-      "pnl_pct": -0.83
+      "valeur": 1111.52,
+      "pnl_pct": -0.9
     }
   ],
   "cibles": [
