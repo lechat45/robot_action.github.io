@@ -1,29 +1,49 @@
 {
-  "maj": "2026-11-03T14:54:12.963369+00:00",
+  "maj": "2026-11-03T20:49:21.649491+00:00",
   "kill_switch": false,
-  "equity": 9132.82,
-  "cash": 6666.62,
-  "perf_jour_pct": -0.09,
+  "equity": 9155.67,
+  "cash": 2649.45,
+  "perf_jour_pct": 0.16,
   "positions": [
     {
+      "symbole": "AAPL",
+      "valeur": 1092.06,
+      "pnl_pct": -0.44
+    },
+    {
       "symbole": "AVAXUSD",
-      "valeur": 401.17,
-      "pnl_pct": -2.9
+      "valeur": 398.23,
+      "pnl_pct": -3.61
+    },
+    {
+      "symbole": "DIS",
+      "valeur": 1115.69,
+      "pnl_pct": 1.72
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 468.39,
-      "pnl_pct": -1.91
+      "valeur": 468.89,
+      "pnl_pct": -1.8
     },
     {
       "symbole": "MSFT",
-      "valeur": 995.85,
-      "pnl_pct": 0.0
+      "valeur": 1015.12,
+      "pnl_pct": 1.94
     },
     {
       "symbole": "TSLA",
-      "valeur": 600.89,
-      "pnl_pct": -0.0
+      "valeur": 596.13,
+      "pnl_pct": -0.8
+    },
+    {
+      "symbole": "V",
+      "valeur": 1031.96,
+      "pnl_pct": -0.15
+    },
+    {
+      "symbole": "XOM",
+      "valeur": 788.14,
+      "pnl_pct": -0.23
     }
   ],
   "cibles": [
@@ -32,8 +52,8 @@
     "DIS",
     "XOM",
     "V",
-    "MSFT",
     "AVAX/USD",
+    "MSFT",
     "LTC/USD"
   ]
 }
