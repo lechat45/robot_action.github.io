@@ -1,9 +1,9 @@
 {
-  "maj": "2026-11-07T06:25:52.684713+00:00",
+  "maj": "2026-11-07T13:26:38.088969+00:00",
   "kill_switch": false,
-  "equity": 9042.92,
-  "cash": 3348.89,
-  "perf_jour_pct": -0.74,
+  "equity": 9025.95,
+  "cash": 3348.77,
+  "perf_jour_pct": -0.14,
   "positions": [
     {
       "symbole": "AAPL",
@@ -12,8 +12,8 @@
     },
     {
       "symbole": "AVAXUSD",
-      "valeur": 470.27,
-      "pnl_pct": 1.62
+      "valeur": 461.54,
+      "pnl_pct": -0.27
     },
     {
       "symbole": "DIS",
@@ -22,13 +22,13 @@
     },
     {
       "symbole": "DOTUSD",
-      "valeur": 392.97,
-      "pnl_pct": -0.3
+      "valeur": 390.71,
+      "pnl_pct": -0.87
     },
     {
       "symbole": "LTCUSD",
-      "valeur": 421.55,
-      "pnl_pct": 1.84
+      "valeur": 415.69,
+      "pnl_pct": 0.42
     },
     {
       "symbole": "MA",
