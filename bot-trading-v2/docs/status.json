@@ -1,54 +1,54 @@
 {
-  "maj": "2026-11-13T22:30:38.308897+00:00",
+  "maj": "2026-11-14T02:40:05.008063+00:00",
   "kill_switch": false,
-  "equity": 9108.47,
+  "equity": 9092.23,
   "cash": 2903.45,
-  "perf_jour_pct": 0.27,
+  "perf_jour_pct": 0.09,
   "positions": [
     {
       "symbole": "AAPL",
-      "valeur": 778.39,
-      "pnl_pct": -0.55
+      "valeur": 778.04,
+      "pnl_pct": -0.59
     },
     {
       "symbole": "AVAXUSD",
-      "valeur": 367.28,
-      "pnl_pct": 1.36
+      "valeur": 354.32,
+      "pnl_pct": -2.21
     },
     {
       "symbole": "DIS",
-      "valeur": 930.07,
-      "pnl_pct": -0.24
+      "valeur": 928.11,
+      "pnl_pct": -0.45
     },
     {
       "symbole": "JNJ",
-      "valeur": 849.13,
-      "pnl_pct": -0.02
+      "valeur": 850.68,
+      "pnl_pct": 0.16
     },
     {
       "symbole": "MA",
-      "valeur": 760.69,
+      "valeur": 760.72,
       "pnl_pct": -0.09
     },
     {
       "symbole": "MSFT",
-      "valeur": 592.77,
-      "pnl_pct": 0.03
+      "valeur": 593.1,
+      "pnl_pct": 0.09
     },
     {
       "symbole": "TSLA",
-      "valeur": 363.37,
-      "pnl_pct": -0.43
+      "valeur": 362.52,
+      "pnl_pct": -0.67
     },
     {
       "symbole": "V",
-      "valeur": 842.78,
-      "pnl_pct": -0.07
+      "valeur": 842.16,
+      "pnl_pct": -0.15
     },
     {
       "symbole": "XOM",
-      "valeur": 720.54,
-      "pnl_pct": 0.9
+      "valeur": 719.14,
+      "pnl_pct": 0.71
     }
   ],
   "cibles": [
