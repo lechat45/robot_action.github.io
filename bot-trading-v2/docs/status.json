@@ -1,9 +1,9 @@
 {
-  "maj": "2026-11-14T20:53:10.641928+00:00",
+  "maj": "2026-11-15T00:52:00.111342+00:00",
   "kill_switch": false,
-  "equity": 9064.44,
+  "equity": 9054.0,
   "cash": 2908.84,
-  "perf_jour_pct": -0.42,
+  "perf_jour_pct": -0.54,
   "positions": [
     {
       "symbole": "AAPL",
@@ -12,8 +12,8 @@
     },
     {
       "symbole": "AVAXUSD",
-      "valeur": 312.22,
-      "pnl_pct": -3.28
+      "valeur": 301.78,
+      "pnl_pct": -6.52
     },
     {
       "symbole": "DIS",
