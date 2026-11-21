@@ -1,9 +1,9 @@
 {
-  "maj": "2026-11-21T04:11:51.872058+00:00",
+  "maj": "2026-11-21T12:55:42.477302+00:00",
   "kill_switch": false,
-  "equity": 8853.35,
-  "cash": 3653.69,
-  "perf_jour_pct": -0.9,
+  "equity": 8853.24,
+  "cash": 3653.58,
+  "perf_jour_pct": 0.0,
   "positions": [
     {
       "symbole": "AAPL",
