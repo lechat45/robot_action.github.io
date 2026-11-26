@@ -1,9 +1,9 @@
 {
-  "maj": "2026-11-26T04:17:36.556618+00:00",
+  "maj": "2026-11-26T14:14:44.201945+00:00",
   "kill_switch": false,
-  "equity": 8908.88,
-  "cash": 8908.88,
-  "perf_jour_pct": -0.63,
+  "equity": 8908.76,
+  "cash": 8908.76,
+  "perf_jour_pct": 0.0,
   "positions": [],
   "cibles": []
 }
