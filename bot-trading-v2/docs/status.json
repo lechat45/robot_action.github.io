@@ -1,9 +1,44 @@
 {
-  "maj": "2026-11-27T05:16:09.180109+00:00",
+  "maj": "2026-11-27T15:28:33.595954+00:00",
   "kill_switch": false,
-  "equity": 8908.76,
-  "cash": 8908.76,
-  "perf_jour_pct": 0.0,
-  "positions": [],
-  "cibles": []
+  "equity": 8908.56,
+  "cash": 6557.71,
+  "perf_jour_pct": -0.0,
+  "positions": [
+    {
+      "symbole": "AMD",
+      "valeur": 160.32,
+      "pnl_pct": -0.02
+    },
+    {
+      "symbole": "MA",
+      "valeur": 750.18,
+      "pnl_pct": -0.0
+    },
+    {
+      "symbole": "META",
+      "valeur": 427.17,
+      "pnl_pct": -0.02
+    },
+    {
+      "symbole": "TSLA",
+      "valeur": 287.1,
+      "pnl_pct": -0.02
+    },
+    {
+      "symbole": "V",
+      "valeur": 726.02,
+      "pnl_pct": -0.01
+    }
+  ],
+  "cibles": [
+    "AAPL",
+    "DIS",
+    "MA",
+    "V",
+    "TSLA",
+    "META",
+    "XOM",
+    "AMD"
+  ]
 }
